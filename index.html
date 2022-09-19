@@ -13,7 +13,7 @@
 
         <!-- Так, як весь контент хедера являється ссилками, все обертаємо в nav-->
         <nav>
-            <a href="/">     <!-- "/" - для того, щоб повернутися на головну сторінку -->
+            <a class="logo" href="/">     <!-- "/" - для того, щоб повернутися на головну сторінку -->
             WebStudio
             </a>
 
@@ -24,7 +24,7 @@
             </ul>
         </nav>
 
-        <ul>
+        <ul>    <!--Чи потрібен тут список?-->
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
         </ul>    
@@ -38,7 +38,7 @@
 
                 <!--Обгорнув у div для подальшої стилізації-->
             <div> 
-                <h1>Ефективні рішення <br> для вашого бізнесу</h1>
+                <h1>Ефективні рішення <br /> для вашого бізнесу</h1>
                 <button type="button">Замовити послугу</button>
             </div>
                 
@@ -77,7 +77,52 @@
                 <li><img src="./images/box3.jpg" alt="Робробляемо графічний дизайн " width="370"></li>
             </ul>
         </section>
+
+        <!--Наша команда-->
+        <section>
+
+            <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/teammate1.jpg" alt="Ігор Дем'яненко" width="270">
+                    <h3>Ігор Дем'яненко</h3>
+                    <p>Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/teammate2.jpg" alt="Ольга Рєпіна" width="270">
+                    <h3>Ольга Рєпіна</h3>
+                    <p>Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/teammate3.jpg" alt="Микола Тарасов" width="270">
+                    <h3>Микола Тарасов</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/teammate4.jpg" alt="Михайло Єрмаков" width="270">
+                    <h3>Михайло Єрмаков</h3>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
     </main>
+
+    <!--Футер-->
+    <footer>
+
+        <a class="logo" href="/">
+            <!-- "/" - для того, щоб повернутися на головну сторінку -->
+            WebStudio
+        </a>
+        
+        <address>
+            <ul> <!--Чи потрібен тут список?-->
+                <li>м. Київ, пр-т Лесі Українки, 26</li>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+            </ul>
+        </address>
+    </footer>
     
 </body>
 </html>
